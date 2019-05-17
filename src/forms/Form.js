@@ -29,7 +29,7 @@ class Form extends Component {
             comments: this.state.comments
         }
 
-        axios.post('API_URI', data)
+        axios.post('https://nodejs-express-git-zeit.emurray1.now.sh/', data)
         .then ( res => {
             alert('A name was submitted: ' + this.state.firstName);
             this.setState({ sent: true }, this.resetForm())
