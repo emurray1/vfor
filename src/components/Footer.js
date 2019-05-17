@@ -8,7 +8,7 @@ import { Nav,
 import { Link } from 'react-router-dom';
 import { Typography } from '@material-ui/core';
 
-import Form from '../utils/Form';
+import Form from '../forms/Form';
 
 
 export default class siteFooter extends React.Component {

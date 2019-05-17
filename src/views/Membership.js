@@ -3,7 +3,6 @@ import { Container, Row, Col, ListGroup, ListGroupItem } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import { Typography, Paper } from '@material-ui/core';
 import { FormatQuote } from '@material-ui/icons';
-import { Document } from 'react-pdf';
 
 import howardCenterForm from '../sources/howardCenterForm.pdf';
 import howardCenterForm2 from '../sources/howardCenterForm.pdf';
